@@ -1,0 +1,18 @@
+#ball{
+  width: 200px;
+  height: 200px;
+  background-color: lightgreen;
+  border-radius: 50%;
+  transition: background-color 2s ease;
+}
+
+span{
+  color: white;
+  font-size: 30px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
